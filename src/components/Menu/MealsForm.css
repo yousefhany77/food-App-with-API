@@ -1,0 +1,26 @@
+:root {
+  --errorColor: rgb(241, 100, 100);
+}
+.form_ADD_MEAL {
+  display: grid;
+}
+
+.formWraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.invalid {
+  box-shadow: none !important;
+  border: none !important;
+  border: 0.15rem solid var(--errorColor) !important;
+}
+
+.error {
+  margin: 0 0.5rem;
+  color: var(--errorColor);
+}

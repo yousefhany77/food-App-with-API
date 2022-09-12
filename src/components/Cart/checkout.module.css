@@ -1,0 +1,57 @@
+.formConainer {
+  align-content: center;
+  justify-content: center;
+  padding: 2rem;
+  border-left: 0.1rem solid rgba(187, 187, 187, 0.2);
+}
+
+.formConainer .inputControl {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.35rem;
+  margin-block: 1rem;
+}
+.inputControl label {
+  margin-left: 0.4rem;
+  font-weight: bold;
+}
+.formConainer input {
+  padding: 0.5rem 0.8rem;
+  width: 100%;
+  border-radius: 2rem;
+  border: 1px solid lightgray;
+}
+
+h2 {
+  font-size: 2rem !important;
+  margin-bottom: 2rem !important;
+  margin-top: 0rem !important;
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+
+.checkoutButton {
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: 400;
+  background-color: rgb(56, 241, 56);
+  color: white;
+  transition: all 300ms ease;
+}
+.checkoutButton:hover {
+  background-color: rgb(32, 148, 32);
+  color: rgb(255, 255, 255);
+}
+
+.checkoutButton:disabled {
+  opacity: 0.3;
+}
+
+.error {
+  color: lightcoral;
+}

@@ -1,0 +1,23 @@
+.cart-container {
+  position: relative;
+}
+
+.cartIcon {
+  width: 45px;
+}
+
+.cart-container span {
+  position: absolute;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  left: 52%;
+  top: -4px;
+  background-color: rgb(233, 73, 73);
+  border-radius: 100%;
+  width: 21px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
